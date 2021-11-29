@@ -20,6 +20,7 @@ class Helics(CMakePackage):
     version('develop', branch='develop', submodules=True)
     version('main', branch='main', submodules=True)
     version('master', branch='main', submodules=True)
+    version('3.1.0', sha256='b6f97c8ce3c4c18dce8e868a366782b726077165204d631a5c580682f872ffd7')
     version('3.0.1', sha256='512afc18e25311477ec82804de74c47a674aa213d2173c276b6caf555b8421dd')
     version('3.0.0', sha256='928687e95d048f3f9f9d67cec4ac20866a98cbc00090a2d62abaa11c2a20958c')
     version('2.8.0', sha256='f2b218494407573c75561b7d4d656bc60f7592e970dd87d98c969066d76d89c1')
